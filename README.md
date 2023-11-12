@@ -96,5 +96,5 @@ kcat -b localhost:9093 -t crm-triggers -C -o beginning -u
 
 ![Demo UI](doc/flink-real-time-crm-ui.png)
 
-When Kafka and Flink are running, you can also use the dedicated `flink-real-time-crm-ui` Demo UI project in order to
+When Kafka and Flink are running, you can also use the dedicated [Demo UI project](https://github.com/innogames/flink-real-time-crm-ui) to
 interact with the system via a web frontend.
