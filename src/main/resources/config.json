@@ -1,0 +1,10 @@
+{
+    "default_parallelism": 2,
+    "checkpoint_interval": 10000,
+    "checkpoint_dir": "file:///tmp/flink/checkpoints",
+    "kafka_bootstrap_servers": "localhost:9093",
+    "kafka_group_id": "flink-real-time-crm",
+    "event_topic": "events-valid",
+    "campaign_topic": "crm-campaigns",
+    "trigger_topic": "crm-triggers"
+}

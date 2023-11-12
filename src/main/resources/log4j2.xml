@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+	<appenders>
+		<console name="stdout">
+			<patternlayout pattern="[%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ}][%highlight{%-5level}{STYLE=Logback, DEBUG=magenta, TRACE=blue}][%thread][%logger{-4}] %msg%n"/>
+		</console>
+	</appenders>
+
+	<loggers>
+		<root level="INFO">
+			<appenderref ref="stdout"/>
+		</root>
+	</loggers>
+</configuration>
