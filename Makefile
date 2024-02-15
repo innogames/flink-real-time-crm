@@ -8,4 +8,4 @@ clean:
 	rm -rf target/
 
 $(JAR):
-	mvn -U clean package
+	./mvnw -U clean package
