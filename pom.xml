@@ -19,7 +19,7 @@
 		<flink.version>1.17.1</flink.version>
 		<jackson.version>2.15.2</jackson.version>
 		<nashorn.version>15.4</nashorn.version>
-		<kafka-clients.version>3.5.1</kafka-clients.version>
+		<kafka-clients.version>3.7.1</kafka-clients.version>
 		<log4j2.version>2.20.0</log4j2.version>
 		<junit.version>4.13.2</junit.version>
 
